@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="scorekeeper.css" />
+    <title>Score Keeper</title>
+  </head>
+
+  <body>
+    <h1><span>0</span> - <span>0</span></h1>
+    <p>Use the buttons below to keep score.</p>
+    <p>
+      <label for="selectScore">Playing To</label>
+      <select name="maxScore" id="selectScore">
+        <option value="1">1</option>
+        <option value="3" selected>3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="10">10</option>
+      </select>
+    </p>
+    <p>
+      <button id="player1">+1 Player 1</button>
+      <button id="player2">+1 Player 2</button>
+      <button id="reset">Reset</button>
+    </p>
+
+    <script src="scorekeeper.js"></script>
+  </body>
+</html>
