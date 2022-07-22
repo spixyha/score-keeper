@@ -1,3 +1,3 @@
 # Score keeper
 
-Little app that track the score in ping pong games.
+Little app that tracks the score in the ping pong games.
