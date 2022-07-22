@@ -16,7 +16,7 @@ player1.addEventListener("click", function () {
     if (maxScore === count1) {
         player1.setAttribute('disabled', '');
         player2.setAttribute('disabled', '');
-        h1.innerHTML = `<span class="green">${count1}</span> - <span class="red">${count2}</span>`;
+        h1.innerHTML = `<span class="has-text-success">${count1}</span> - <span class="has-text-danger">${count2}</span>`;
     }
 });
 player2.addEventListener("click", function () {
@@ -24,7 +24,7 @@ player2.addEventListener("click", function () {
     if (maxScore === count2) {
         player1.setAttribute('disabled', '');
         player2.setAttribute('disabled', '');
-        h1.innerHTML = `<span class="red">${count1}</span> - <span class="green">${count2}</span>`;
+        h1.innerHTML = `<span class="has-text-danger">${count1}</span> - <span class="has-text-success">${count2}</span>`;
     }
 });
 resetButton.addEventListener("click", function () {
